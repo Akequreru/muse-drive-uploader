@@ -1,2 +1,21 @@
-# muse-drive-uploader
-Create for Muse to save images in Google drive
+# Muse Drive Uploader
+
+個人開発者が、自分専用に使うツールです。一般公開のサービスではなく、第三者向けの登録やアカウント発行は行いません。
+
+## 目的
+
+所有者本人が生成した画像を、本人自身の Google ドライブ内のフォルダ（`muse/dataset1`）へ保存することです。
+
+## Google ユーザーデータの利用について
+
+- Google Drive API を使用します。
+- アクセス範囲は、このアプリ自身が作成したファイルのみです（`drive.file` スコープ）。
+- それ以外のファイルや情報にはアクセスしません。
+
+## プライバシーポリシー
+
+[PRIVACY.md](PRIVACY.md) をご覧ください。
+
+## お問い合わせ
+
+Google Cloud コンソールに登録したサポート用メールアドレスで受け付けています。
